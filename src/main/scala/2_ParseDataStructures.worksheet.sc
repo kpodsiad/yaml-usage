@@ -36,6 +36,7 @@ val nullableYamlAnySeq =
       |- 5.5
       |""".stripMargin
 
+nullableYamlAnySeq.as[Seq[Option[Any]]].orThrow
 // lets say we don't know types in colletion
 nullableYamlAnySeq.as[Seq[Any]].orThrow
 // or even we don't know what we should expect!

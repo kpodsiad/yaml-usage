@@ -8,5 +8,5 @@ lazy val root = project
     scalaVersion := scala3Version,
 
 
-    libraryDependencies += "org.virtuslab" %% "scala-yaml" % "0.0.3+45-7fa721b5-SNAPSHOT"
+    libraryDependencies += "org.virtuslab" %% "scala-yaml" % "0.0.3+52-9dd1f188+20211116-2129-SNAPSHOT"
   )
